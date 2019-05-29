@@ -64,49 +64,53 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 main {
-	width: 876px;
+	width: 900px;
 	display: block;
 	margin: auto;
 }
 header {
-	padding: 10px;
-	margin:20px;
-	box-sizing: border-box;
+	height: 80px;
+	padding: 5px;
+	margin: auto;
+	vertical-align: middle;
 }
 nav {
-	width: 500px;
-	box-sizing: border-box;
 	display: inline-block;
-	padding: 10px;
 }
-
 nav a {
-	padding: 10px;
-	display: inline-block;
-	box-sizing: border-box;
+	text-decoration: none;
+	color: gray;
+	font-size: 15px;
+	font-family: Helvetica;
+	width: 60px;
+	height: 20px;
+	padding: 20px;
 }
-
 .logo {
 	display: inline-block;
-	padding: 10px;
+	padding: 20px;
+	margin: 0px 0px 0px 50px;
 }
 
 h1 {
 	box-sizing: border-box;
-	font-size: 50px;
-	width: 379px;
-	height: 379px;
+	font-size: 75px;
 }
 
 .tagline {
 	box-sizing: border-box;
 	display: inline-block;
+	text-align: center;
+	width: 379px;
+	height: 379px;
 }
 
 .headerimg {
 	box-sizing: border-box;
 	display: inline-block;
+	margin: 80px 0px 0px 50px;
 }
 
 .twocolumn {
@@ -121,12 +125,6 @@ h1 {
 	width: 275px;
 }
 
-footer {
-	box-sizing: border-box;
-	margin: auto;
-	display: inline-block;
-}
-
 footer p {
-	width: 300px;
+	text-align: center;
 }

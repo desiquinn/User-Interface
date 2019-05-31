@@ -119,6 +119,10 @@ h1 {
 	font-size: 75px;
 }
 
+h3 {
+	font-size: 20px;
+}
+
 .calltoaction {
 	display: block;
 	text-decoration: none;
@@ -141,46 +145,27 @@ header div {
 	position: absolute;
 }
 
-
-/*
-header {
-	height: 80px;
-	padding: 5px;
-	margin: auto;
-	vertical-align: middle;
-}
-
-
-
-
-.tagline {
-	box-sizing: border-box;
+.two-column-section div {
 	display: inline-block;
-	text-align: center;
-	width: 379px;
-	height: 379px;
+	width: 425px;
+	margin: 0px 20px 50px 0px;
 }
 
-.headerimg {
-	box-sizing: border-box;
-	display: inline-block;
-	margin: 80px 0px 0px 50px;
-}
-
-.twocolumn {
-	box-sizing: border-box;
-	display: inline-block;
-	width: 400px;
-}
-
-.threecolumn {
-	box-sizing: border-box;
+.three-column-section div {
 	display: inline-block;
 	width: 275px;
+	margin: 50px 20px 50px 0px;
 }
 
-*/
+.three-column-section {
+	border-bottom: 1px solid black;
+}
+
+.contact-section {
+	margin: 50px 0px;
+}
 
 footer p {
 	text-align: center;
+	margin: 50px;
 }

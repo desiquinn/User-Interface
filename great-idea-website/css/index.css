@@ -72,6 +72,8 @@ h1, h2, h3, h4, h5 {
 	margin-top: 20px;
 }
 
+/* Main Navigation Styling */
+
 .main-nav {
 	margin: auto;
 	/*text-align: center;*/
@@ -83,21 +85,62 @@ h1, h2, h3, h4, h5 {
 nav div {
 	display: inline-block;
 	/*height: 60px;*/
-	margin: 20px;
+	margin: 25px 50px 25px 0px;
 }
 
 nav a {
 	display: inline-block;
-	padding: 20px;
+	padding: 30px;
 	text-decoration: none;
 	color: gray;
 	font-size: 15px;
 
 }
 
+nav a:first-child {
+	padding-left: 0;
+}
+
 .logo {
 	position: absolute;
 }
+
+/* Index.html styling */
+
+header {
+	position: relative;
+	height: 450px;
+	margin: 50px 0px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+.calltoaction {
+	display: block;
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	width: 150px;
+	height: 30px;
+	padding: 5px 0px;
+	margin: auto;
+}
+
+header div {
+	display: inline-block;
+	text-align: center;
+	margin: 50px 100px;
+}
+
+.headerimg {
+	display: inline-block;
+	position: absolute;
+}
+
 
 /*
 header {
@@ -108,10 +151,7 @@ header {
 }
 
 
-h1 {
-	box-sizing: border-box;
-	font-size: 75px;
-}
+
 
 .tagline {
 	box-sizing: border-box;

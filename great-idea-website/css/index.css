@@ -65,66 +65,107 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-main {
+.main-content-area {
 	width: 900px;
 	display: block;
 	margin: auto;
+	margin-top: 20px;
 }
-header {
-	height: 80px;
-	padding: 5px;
+
+/* Main Navigation Styling */
+
+.main-nav {
 	margin: auto;
-	vertical-align: middle;
+	/*text-align: center;*/
+	width: 900px;
+	height: 100px;
+	position: relative;
 }
-nav {
+
+nav div {
 	display: inline-block;
+	/*height: 60px;*/
+	margin: 25px 50px 25px 0px;
 }
+
 nav a {
+	display: inline-block;
+	padding: 30px;
 	text-decoration: none;
 	color: gray;
 	font-size: 15px;
-	font-family: Helvetica;
-	width: 60px;
-	height: 20px;
-	padding: 20px;
+
 }
+
+nav a:first-child {
+	padding-left: 0;
+}
+
 .logo {
-	display: inline-block;
-	padding: 20px;
-	margin: 0px 0px 0px 50px;
+	position: absolute;
+}
+
+/* Index.html styling */
+
+header {
+	position: relative;
+	height: 450px;
+	margin: 50px 0px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
 }
 
 h1 {
-	box-sizing: border-box;
 	font-size: 75px;
 }
 
-.tagline {
-	box-sizing: border-box;
+h3 {
+	font-size: 20px;
+}
+
+.calltoaction {
+	display: block;
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	width: 150px;
+	height: 30px;
+	padding: 5px 0px;
+	margin: auto;
+}
+
+header div {
 	display: inline-block;
 	text-align: center;
-	width: 379px;
-	height: 379px;
+	margin: 50px 100px;
 }
 
 .headerimg {
-	box-sizing: border-box;
 	display: inline-block;
-	margin: 80px 0px 0px 50px;
+	position: absolute;
 }
 
-.twocolumn {
-	box-sizing: border-box;
+.two-column-section div {
 	display: inline-block;
-	width: 400px;
+	width: 425px;
+	margin: 0px 20px 50px 0px;
 }
 
-.threecolumn {
-	box-sizing: border-box;
+.three-column-section div {
 	display: inline-block;
 	width: 275px;
+	margin: 50px 20px 50px 0px;
+}
+
+.three-column-section {
+	border-bottom: 1px solid black;
+}
+
+.contact-section {
+	margin: 50px 0px;
 }
 
 footer p {
 	text-align: center;
+	margin: 50px;
 }

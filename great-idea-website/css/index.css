@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -98,7 +98,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	padding: 0 25px;
+	padding: 0 20px;
 	color: black;
 }
 
@@ -151,6 +151,7 @@ h3 {
 	display: inline-block;
 	width: 410px;
 	margin: 0px 20px 50px 0px;
+	vertical-align: top;
 }
 
 .three-column-section div {
@@ -179,4 +180,31 @@ address p {
 footer p {
 	text-align: center;
 	margin: 50px;
+}
+
+/* About page styling */
+
+.aboutimg {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
+	width: 45%;
+	height: auto;
+}
+
+.founderimg {
+	width: 90%;
+	height: auto;
+	margin-left: 20px;
+}
+
+ul {
+	list-style: square inside;
+	line-height: 1.6;
+}
+
+.about-text div:first-child {
+	margin-left: 20px;
+	margin-right: 10px;
+	width: 400px;
 }

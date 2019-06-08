@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,8 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body{
+	padding: 100px;
+}
+
 .main-content-area {
-	width: 900px;
+	width: 880px;
 	display: block;
 	margin: 0 auto;
 }
@@ -74,10 +78,17 @@ h1, h2, h3, h4, h5 {
 /* Main Navigation Styling */
 
 .main-nav {
-	margin: 20px auto;
-	width: 900px;
-	height: 50px;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 880px;
+	height: 100px;
 	text-align: center;
+	background: rgb(102, 158, 223);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-radius: 10px;
 }
 
 nav {
@@ -87,8 +98,8 @@ nav {
 
 nav a {
 	text-decoration: none;
-	padding: 0 25px;
-	color: grey;
+	padding: 0 20px;
+	color: black;
 }
 
 .main-nav img {
@@ -138,16 +149,22 @@ h3 {
 
 .two-column-section div {
 	display: inline-block;
-	width: 425px;
+	width: 410px;
 	margin: 0px 20px 50px 0px;
+	vertical-align: top;
 }
 
 .three-column-section div {
 	display: inline-block;
-	width: 275px;
-	margin: 50px 20px 50px 0px;
+	width: 280px;
+	margin: 50px 10px 50px 0px;
 }
 
+.middle-img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
 .three-column-section {
 	border-bottom: 2px solid black;
 }
@@ -163,4 +180,31 @@ address p {
 footer p {
 	text-align: center;
 	margin: 50px;
+}
+
+/* About page styling */
+
+.aboutimg {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
+	width: 45%;
+	height: auto;
+}
+
+.founderimg {
+	width: 90%;
+	height: auto;
+	margin-left: 20px;
+}
+
+ul {
+	list-style: square inside;
+	line-height: 1.6;
+}
+
+.about-text div:first-child {
+	margin-left: 20px;
+	margin-right: 10px;
+	width: 400px;
 }

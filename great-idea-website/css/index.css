@@ -68,81 +68,72 @@ h1, h2, h3, h4, h5 {
 .main-content-area {
 	width: 900px;
 	display: block;
-	margin: auto;
-	margin-top: 20px;
+	margin: 0 auto;
 }
 
 /* Main Navigation Styling */
 
 .main-nav {
-	margin: auto;
-	/*text-align: center;*/
+	margin: 20px auto;
 	width: 900px;
-	height: 100px;
-	position: relative;
+	height: 50px;
+	text-align: center;
 }
 
-nav div {
+nav {
 	display: inline-block;
-	/*height: 60px;*/
-	margin: 25px 50px 25px 0px;
+	vertical-align: middle;
 }
 
 nav a {
-	display: inline-block;
-	padding: 30px;
 	text-decoration: none;
-	color: gray;
-	font-size: 15px;
-
+	padding: 0 25px;
+	color: grey;
 }
 
-nav a:first-child {
-	padding-left: 0;
+.main-nav img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
 }
 
-.logo {
-	position: absolute;
-}
-
-/* Index.html styling */
+/* Header styling */
 
 header {
-	position: relative;
-	height: 450px;
-	margin: 50px 0px;
+	border-bottom: 2px solid black;
+	margin: 50px 0;
 	padding-bottom: 50px;
-	border-bottom: 1px solid black;
 }
-
-h1 {
-	font-size: 75px;
-}
-
-h3 {
-	font-size: 20px;
-}
-
-.calltoaction {
-	display: block;
-	text-decoration: none;
-	border: 1px solid black;
-	color: black;
-	width: 150px;
-	height: 30px;
-	padding: 5px 0px;
-	margin: auto;
-}
-
 header div {
 	display: inline-block;
+	vertical-align: middle;
+	width: 380px;
+	height: 380px;
 	text-align: center;
-	margin: 50px 100px;
+	margin: 0 20px;
+}
+
+.tagline {
+	font-size: 80px;
+	margin: 50px 0 20px;
 }
 
 .headerimg {
 	display: inline-block;
-	position: absolute;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+
+.calltoaction {
+	background: white;
+	border: 1px solid black;
+	padding: 10px 50px;
+	text-decoration: none;
+	color: black;
+}
+
+h3 {
+	font-size: 20px;
 }
 
 .two-column-section div {
@@ -158,11 +149,15 @@ header div {
 }
 
 .three-column-section {
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 
 .contact-section {
 	margin: 50px 0px;
+}
+
+address p {
+	margin: 15px 0;
 }
 
 footer p {
